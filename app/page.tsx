@@ -193,7 +193,7 @@ export default function Home() {
             <p className="mini">30 min intro call</p>
             <h3>Tell us what you&apos;re building.</h3>
             <p>We&apos;ll map the right rails, partners and operating model for your use case.</p>
-            <a className="button buttonLight" href="mailto:hello@pangealabs.space">Book a call <Arrow /></a>
+            <a className="button buttonLight" href="mailto:contact@pangealabs.space">Book a call <Arrow /></a>
           </div>
         </div>
       </section>
@@ -202,13 +202,13 @@ export default function Home() {
         <p className="eyebrow">Let&apos;s work together</p>
         <h2>Have a use case in mind?</h2>
         <p>We&apos;d love to hear about it. Let&apos;s build something exceptional together.</p>
-        <a className="button" href="mailto:hello@pangealabs.space">Get in touch <Arrow /></a>
+        <a className="button" href="mailto:contact@pangealabs.space">Get in touch <Arrow /></a>
       </section>
 
       <footer className="footer shell">
         <a className="brand" href="#top"><span className="brandMark">P</span><span>Pangea Labs</span></a>
         <p>Global financial infrastructure for modern businesses.</p>
-        <a className="textLink" href="https://www.linkedin.com" target="_blank" rel="noreferrer">Connect on LinkedIn <Arrow /></a>
+        <a className="textLink" href="https://www.linkedin.com/company/pangea-labs/" target="_blank" rel="noreferrer">Connect on LinkedIn <Arrow /></a>
       </footer>
     </main>
   );
