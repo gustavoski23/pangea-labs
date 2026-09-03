@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { LegalFooter } from "./components/legal-footer";
 
 export const metadata: Metadata = {
   title: "Pangea Labs",
@@ -49,6 +50,7 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
         {children}
+        <LegalFooter />
       </body>
     </html>
   );
